@@ -1,3 +1,12 @@
+import Layout from "./layout";
+import Profile from "./pages/profile";
+import { Route, Routes } from "react-router-dom";
 export default function App() {
-  return <div className="w-screen h-screen bg-black"></div>;
+  return (
+    <Layout>
+      <Routes>
+        <Route path="/profile" element={<Profile />} />
+      </Routes>
+    </Layout>
+  );
 }
