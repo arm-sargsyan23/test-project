@@ -5,7 +5,7 @@ export default function App() {
   return (
     <Layout>
       <Routes>
-        <Route path="/profile" element={<Profile />} />
+        <Route path="/" element={<Profile />} />
       </Routes>
     </Layout>
   );
