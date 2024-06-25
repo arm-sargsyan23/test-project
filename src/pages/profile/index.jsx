@@ -1,9 +1,8 @@
-import { Article, AsideBar } from "../../features/index";
+import { Article } from "../../features/index";
 
 export default function Profile() {
   return (
-    <div className="w-screen h-screen flex">
-      <AsideBar />
+    <div className="w-screen md:h-screen min-h-screen flex">
       <Article />
     </div>
   );
